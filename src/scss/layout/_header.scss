@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   background-image: url("../images/header.jpg");
-  background-image: 50%vw;
+  /*background-image: 50%vw;*/
   background-position: center;
   background-size: cover;
   display: flex;
@@ -17,6 +17,8 @@
   }
   &__menuHamburguer {
     width: 24px;
+    color: $color-fonts;
+    text-decoration: none;
     position: absolute;
     top: 55px;
     left: 33px;
@@ -30,11 +32,21 @@
     text-transform: capitalize;
     margin-top: 215px;
     margin-bottom: 24px;
+    color: #0c474b;
+    font-family: $font-family;
+    font-size: 24px;
+    font-weight: 600;
   }
   &__button {
     width: 176px;
     height: 48px;
+    border: none;
     text-transform: capitalize;
     margin-bottom: 64px;
+    color: $color-white;
+    background-color: $color-fonts;
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: 600;
   }
 }
