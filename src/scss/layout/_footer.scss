@@ -1,0 +1,28 @@
+.footer {
+  background-color: $color-fonts;
+  font-family: $font-family;
+  color: $color-white;
+  text-transform: capitalize;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 20px;
+
+  &__nav__shop {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  &__nav__us {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  &__nav__contact {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  &__link {
+    text-decoration: none;
+    color: $color-white;
+    text-align: left;
+  }
+}
