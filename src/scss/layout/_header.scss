@@ -19,7 +19,7 @@
     width: 24px;
     color: $color-fonts;
     text-decoration: none;
-    position: absolute;
+    position: fixed;
     top: 55px;
     left: 33px;
   }
@@ -40,6 +40,7 @@
   &__button {
     width: 176px;
     height: 48px;
+    padding: 12px 24px;
     border: none;
     text-transform: capitalize;
     margin-bottom: 64px;
