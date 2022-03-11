@@ -5,8 +5,13 @@
   font-family: $font-family;
   color: $color-fonts;
   padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 208px 1fr;
+  grid-template-rows: auto auto auto auto auto;
 
   &__title {
+    grid-column: 1/4;
+    grid-row: 1/2;
     width: 322px;
     text-align: center;
     margin: 0 auto;
@@ -16,12 +21,7 @@
   }
 
   &__article {
-    margin-left: 103px;
-    margin-right: 103px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    grid-column: 2/3;
     text-align: center;
 
     &__image {
@@ -35,9 +35,9 @@
       margin-bottom: 12px;
     }
     &__content {
-      width: 208px;
       font-size: 16px;
       font-weight: normal;
+      text-align: center;
     }
   }
 }
