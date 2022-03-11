@@ -36,17 +36,23 @@
     font-size: 24px;
     font-weight: 600;
   }
+
   &__button {
     width: 176px;
     height: 48px;
     padding: 12px 24px;
-    border: none;
-    text-transform: capitalize;
     margin-bottom: 64px;
     color: $color-white;
     background-color: $color-fonts;
     font-family: $font-family;
     font-size: 16px;
     font-weight: 600;
+    border: none;
+
+    &__button:hover {
+      font-size: 18px;
+      background-color: $color-section1-3;
+      color: $color-fonts;
+    }
   }
 }
