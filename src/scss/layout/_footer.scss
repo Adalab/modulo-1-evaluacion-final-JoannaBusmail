@@ -7,11 +7,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding-top: 36px;
-  padding-bottom: 32px;
+  padding-bottom: 56px;
 
   &__nav {
+    position: relative;
+    left: 20%;
     &__title {
       min-width: 208px;
       font-size: 20px;
@@ -33,18 +34,20 @@
       }
     }
     &__icons {
-      padding-top: 20px;
-      transform: translateX(-50%);
-    }
-    &__icons--items {
       color: $color-white;
       height: 26px;
       padding-right: 11px;
+      position: relative;
+      left: 20%;
+      top: 20px;
     }
+
     &__arrow {
       color: $color-white;
       width: 24px;
-      transform: translateX(3961px);
+      position: relative;
+      top: 30px;
+      left: 40%;
     }
   }
 }
