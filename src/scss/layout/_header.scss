@@ -14,6 +14,10 @@
   &__logo {
     width: 213px;
     margin-top: 19px;
+    /*TABLET & DESKTOP*/
+    @media (min-width: 768px) {
+      margin-top: 39px;
+    }
   }
   &__menuHamburguer {
     width: 24px;
@@ -22,16 +26,20 @@
     position: fixed;
     top: 55px;
     left: 33px;
+    /*TABLET*/
+    @media (min-width: 768px) {
+      top: 75px;
+      left: 82px;
+    }
+    /*DESKTOP*/
+    @media (min-width: 1200px) {
+      display: none;
+    }
   }
 
   &__menu {
-    /*position: fixed;
-    top: 76px;
-    left: 280px;
     display: flex;
-    justify-content: center;
-    align-items: center;*/
-    display: none;
+    flex-direction: row;
 
     &__link {
       text-decoration: none;
@@ -49,6 +57,12 @@
     font-weight: 600;
     position: absolute;
     bottom: 30%;
+    @media (min-width: 768px) {
+      width: 430px;
+      font-size: 36px;
+      top: 364px;
+      left: 147px;
+    }
   }
 
   &__button {
@@ -63,6 +77,10 @@
     border: none;
     position: absolute;
     bottom: 10%;
+    @media (min-width: 768px) {
+      bottom: 350px;
+      left: 147px;
+    }
   }
   &__button:hover {
     background-color: $color-section2;
