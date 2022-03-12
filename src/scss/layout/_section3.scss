@@ -2,9 +2,14 @@
   width: 100%;
   font-family: $font-family;
   color: $color-fonts;
-  background-color: $color-section1-3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 
   &__container {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: $color-section1-3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +44,10 @@
   }
 
   &__image {
-    width: 100%;
+    background-image: url("../images/creando-espacios.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
 }
