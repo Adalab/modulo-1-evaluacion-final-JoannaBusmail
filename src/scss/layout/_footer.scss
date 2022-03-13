@@ -160,4 +160,25 @@
       top: 100%;
     }
   }
+
+  .arrow:hover {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: colors;
+    animation-timing-function: ease-in-out;
+
+    @keyframes colors {
+      from {
+        color: $color-white;
+      }
+
+      33% {
+        color: $color-section1-3;
+      }
+
+      to {
+        color: $color-section2;
+      }
+    }
+  }
 }
