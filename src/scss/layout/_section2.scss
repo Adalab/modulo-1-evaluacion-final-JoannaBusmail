@@ -5,6 +5,11 @@
   font-family: $font-family;
   padding: 46px 0 51px;
 
+  @media (min-width: 1200px) {
+    padding-top: 61px;
+    padding-bottom: 90px;
+  }
+
   &__article {
     color: $color-white;
     display: flex;
@@ -19,6 +24,10 @@
       font-size: 24px;
       font-weight: 600;
       margin-bottom: 10px;
+
+      @media (min-width: 1200px) {
+        font-size: 36px;
+      }
     }
     &__content {
       font-size: 14px;
