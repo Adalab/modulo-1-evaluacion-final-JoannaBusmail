@@ -36,16 +36,27 @@
       display: none;
     }
   }
+  &__menu-ul {
+    height: -300vh;
+    display: none;
 
+    @media (min-width: 1200px) {
+      height: 0vh;
+      display: flex;
+      flex-direction: row;
+      position: fixed;
+      top: 76px;
+      left: 8%;
+    }
+  }
   &__menu {
-    display: flex;
-    flex-direction: row;
-
     &__link {
       text-decoration: none;
       text-transform: capitalize;
       color: $color-fonts;
       font-size: 16px;
+      padding: 2px;
+      margin-right: 30px;
     }
   }
 
