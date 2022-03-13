@@ -40,6 +40,7 @@
     height: -300vh;
     display: none;
 
+    /*DESKTOP*/
     @media (min-width: 1200px) {
       height: 0vh;
       display: flex;
@@ -68,11 +69,18 @@
     font-weight: 600;
     position: absolute;
     bottom: 30%;
+
+    /*TABLET*/
     @media (min-width: 768px) {
       width: 430px;
       font-size: 36px;
-      top: 364px;
-      left: 147px;
+      bottom: 40%;
+      left: 15%;
+    }
+
+    /*DESKTOP*/
+    @media (min-width: 1200px) {
+      left: 8%;
     }
   }
 
@@ -88,9 +96,15 @@
     border: none;
     position: absolute;
     bottom: 10%;
+
+    /*TABLET*/
     @media (min-width: 768px) {
-      bottom: 350px;
-      left: 147px;
+      left: 15%;
+      bottom: 25%;
+    }
+    /*DESKTOP*/
+    @media (min-width: 1200px) {
+      left: 8%;
     }
   }
   &__button:hover {
