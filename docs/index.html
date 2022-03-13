@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <header class="header" id="top-header">
+    <header class="header" id="top_header">
       <img
         class="header__logo"
         src="./assets/images/logo.png"
@@ -30,7 +30,7 @@
         ><i class="fa-solid fa-bars"></i
       ></a>
       <nav>
-        <ul>
+        <ul class="header__menu-ul">
           <li class="header__menu">
             <a class="header__menu__link" href="">productos</a>
           </li>
@@ -58,38 +58,39 @@
           <h2 class="section1__title">
             Volverse organizado se siente mejor con OPEN SPACES
           </h2>
-          <article class="section1__article">
+
+          <article class="section1__article-needs">
             <img
-              class="section1__article__image"
+              class="section1__article-needs__image"
               src="./assets/images/icon_1.png"
               alt="Imagen de productos"
             />
-            <h3 class="section1__article__subtitle">Lo que necesitas</h3>
-            <p class="section1__article__content">
+            <h3 class="section1__article-needs__subtitle">Lo que necesitas</h3>
+            <p class="section1__article-needs__content">
               Una linea de productos diseñados para todos tus espacios
             </p>
           </article>
-
-          <article class="section1__article">
+          <article class="section1__article-material">
             <img
-              class="section1__article__image"
+              class="section1__article-material__image"
               src="./assets/images/Biodegradable bag.png"
               alt="Imagen reciclaje"
             />
-            <h3 class="section1__article__subtitle">Materias primas sustentables</h3>
-            <p class="section1__article__content">
+            <h3 class="section1__article-material__subtitle">
+              Materias primas sustentables
+            </h3>
+            <p class="section1__article-material__content">
               Todos los productos con materias primas sustentables
             </p>
           </article>
-
-          <article class="section1__article">
+          <article class="section1__article-guide">
             <img
-              class="section1__article__image"
+              class="section1__article-guide__image"
               src="./assets/images/Park.png"
               alt="Imagen guía"
             />
-            <h3 class="section1__article__subtitle">Guia</h3>
-            <p class="section1__article__content">
+            <h3 class="section1__article-guide__subtitle">Guia</h3>
+            <p class="section1__article-guide__content">
               Soporte y asesoramiento para ayudarte con tu objetivo
             </p>
           </article>
@@ -116,7 +117,7 @@
           <p class="section3__content">
             Una linea de productos diseñados para todos tus espacios
           </p>
-          <button type="button" class="section3__button">Comprar ahora</button>
+          <button type="button" class="section3__button">comprar ahora</button>
         </div>
         <div class="section3__image"></div>
       </section>
@@ -125,39 +126,39 @@
 
     
         <footer class="footer">
-            <nav>
-              <ul class="footer__nav">
-                <h4 class="footer__nav__title">tienda</h4>
-                <li><a class="footer__nav__link" href="https://adalab.es/" target="_blank">productos</a></li>
-                <li><a class="footer__nav__link" href="https://adalab.es/"target="_blank">cajoneras</a></li>
-                <li><a class="footer__nav__link" href="https://adalab.es/"target="_blank">para toda la casa</a></li>
-                <li><a class="footer__nav__link" href="https://adalab.es/"target="_blank">habitaciones</a></li>
+            <nav class="footer__nav-shop">
+              <ul class="footer__nav-shop__ul">
+                <h4 class="footer__nav-shop__ul__title">tienda</h4>
+                <li><a class="footer__nav-shop__ul__link" href="https://adalab.es/" target="_blank">productos</a></li>
+                <li><a class="footer__nav-shop__ul__link" href="https://adalab.es/"target="_blank">cajoneras</a></li>
+                <li><a class="footer__nav-shop__ul__link" href="https://adalab.es/"target="_blank">para toda la casa</a></li>
+                <li><a class="footer__nav-shop__ul__link" href="https://adalab.es/"target="_blank">habitaciones</a></li>
               </ul>
             </nav>
       
-            <nav>
-              <ul class="footer__nav">
-                <h4 class="footer__nav__title">nosotros</h4>
-                <li><a class="footer__nav__link" href="https://adalab.es/"target="_blank">nuestra guia</a></li>
-                <li><a class="footer__nav__link" href="https://adalab.es/"target="_blank">nuestro diseño</a></li>
-                <li><a class="footer__nav__link" href="https://adalab.es/"target="_blank">nuestra historia</a></li>
-                <li><a class="footer__nav__link" href="https://adalab.es/"target="_blank">ayuda</a></li>
+            <nav class="footer__nav-us">
+              <ul class="footer__nav-us__ul">
+                <h4 class="footer__nav-us__ul__title">nosotros</h4>
+                <li><a class="footer__nav-us__ul__link" href="https://adalab.es/"target="_blank">nuestra guia</a></li>
+                <li><a class="footer__nav-us__ul__link" href="https://adalab.es/"target="_blank">nuestro diseño</a></li>
+                <li><a class="footer__nav-us__ul__link" href="https://adalab.es/"target="_blank">nuestra historia</a></li>
+                <li><a class="footer__nav-us__ul__link" href="https://adalab.es/"target="_blank">ayuda</a></li>
               </ul>
             </nav>
       
-            <nav>
-              <ul class="footer__nav">
-                <h4 class="footer__nav__title">contacto</h4>
-                <li><a class="footer__nav__link--mail" href="mailto:hola@adalab.es">ayuda@openspaces.com</a></li>
-                <li><a class="footer__nav__link" href="https://adalab.es/"target="_blank">socios</a></li>
+            <nav class="footer__nav-contact">
+              <ul class="footer__nav-contact__ul">
+                <h4 class="footer__nav-contact__ul__title">contacto</h4>
+                <li><a class="footer__nav-contact__ul__link--mail" href="mailto:hola@adalab.es">ayuda@openspaces.com</a></li>
+                <li><a class="footer__nav-contact__ul__link" href="https://adalab.es/"target="_blank">socios</a></li>
               </ul>
-              <a class= "footer__nav__icons" href="https://www.linkedin.com/school/adalab/?originalSubdomain=es" target="_blank" title="Ir a Linkedin"><i class="fa-brands fa-linkedin-in"></i></a
+              <a class= "footer__nav-contact__ul__icons" href="https://www.linkedin.com/school/adalab/?originalSubdomain=es" target="_blank" title="Ir a Linkedin"><i class="fa-brands fa-linkedin-in"></i></a
                 >
-                <a class= "footer__nav__icons" href="https://www.instagram.com/adalab_digital/?hl=es"target="_blank" title="Ir a Instagram"><i class="fa-brands fa-instagram"></iclass></i></a
+                <a class= "footer__nav-contact__ul__icons" href="https://www.instagram.com/adalab_digital/?hl=es"target="_blank" title="Ir a Instagram"><i class="fa-brands fa-instagram"></iclass></i></a
                 >
-                <a class= "footer__nav__icons" href="https://twitter.com/Adalab_Digital?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank" title="Ir a Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a class= "footer__nav-contact__ul__icons" href="https://twitter.com/Adalab_Digital?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank" title="Ir a Twitter"><i class="fa-brands fa-twitter"></i></a>
               </nav>
-            <a class="footer__nav__arrow" href="#top_header" title="Volver arriba"><i class="fa-solid fa-arrow-up"></i></a>
+            <a class="footer__arrow" href="#top_header" title="Volver arriba"><i class="fa-solid fa-arrow-up"></i></a>
 
           </footer>
   </body>
