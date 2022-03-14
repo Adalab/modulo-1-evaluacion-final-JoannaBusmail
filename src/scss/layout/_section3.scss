@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
-
+  /*CONTAINER*/
   &__container {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -57,6 +57,8 @@
       width: 281px;
     }
   }
+
+  /*BUTTON*/
   &__button {
     text-transform: capitalize;
     width: 176px;
@@ -78,7 +80,7 @@
     background-color: $color-section2;
     color: $color-fonts;
   }
-
+  /*IMAGE*/
   &__image {
     background-image: url("../images/creando-espacios.jpg");
     background-size: cover;

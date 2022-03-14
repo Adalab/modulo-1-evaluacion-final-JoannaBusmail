@@ -19,6 +19,8 @@
       margin-top: 39px;
     }
   }
+
+  /*HAMBURGUER*/
   &__menuHamburguer {
     width: 24px;
     color: $color-fonts;
@@ -36,6 +38,9 @@
       display: none;
     }
   }
+
+  /*MENU CONTAINER*/
+
   &__menu-ul {
     height: -300vh;
     display: none;
@@ -50,6 +55,7 @@
       left: 8%;
     }
   }
+  /*MENU LINKS*/
   &__menu {
     &__link {
       text-decoration: none;
@@ -60,7 +66,7 @@
       margin-right: 30px;
     }
   }
-
+  /*TITLE*/
   &__title {
     margin-top: 215px;
     margin-bottom: 24px;
@@ -83,7 +89,7 @@
       left: 8%;
     }
   }
-
+  /*BUTTON*/
   &__button {
     width: 176px;
     height: 48px;
