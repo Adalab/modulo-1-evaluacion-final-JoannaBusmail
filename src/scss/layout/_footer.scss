@@ -152,33 +152,29 @@
     top: 30px;
     left: 45%;
 
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: colors;
+    animation-timing-function: linear;
+
+    @keyframes colors {
+      from {
+        color: $color-white;
+        transform: rotate(0deg);
+      }
+
+      to {
+        color: $color-section2;
+        transform: rotate(360deg);
+      }
+    }
+
     /*TABLET*/
 
     @media (min-width: 768px) {
       grid-column: 4/5;
       grid-row: auto;
       top: 100%;
-    }
-  }
-
-  .arrow:hover {
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-name: colors;
-    animation-timing-function: ease-in-out;
-
-    @keyframes colors {
-      from {
-        color: $color-white;
-      }
-
-      33% {
-        color: $color-section1-3;
-      }
-
-      to {
-        color: $color-section2;
-      }
     }
   }
 }
