@@ -15,6 +15,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     padding-top: 63px;
+    padding-right: 20px;
     padding-bottom: 73px;
   }
   /*DESKTOP*/
@@ -115,9 +116,12 @@
       grid-row: 2/3;
       text-align: center;
       width: 208px;
+      justify-self: left;
+    }
+    /*DESKTOP*/
+    @media (min-width: 1200px) {
       justify-self: center;
     }
-
     &__image {
       width: 90px;
       margin-top: 35px;
